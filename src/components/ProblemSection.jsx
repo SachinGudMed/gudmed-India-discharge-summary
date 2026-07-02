@@ -165,9 +165,9 @@ const ProblemSection = () => {
 
             {/* GudMed */}
 
-            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-5 text-center">
+            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-gray-400 p-5 text-center">
               <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-emerald-300">
-                With GudMed: 52 min
+                With <span style={{ color: '#2E4168' }}>GudMed</span>: 52 min
               </h3>
 
               <p className="mt-2 text-sm text-white/60">
