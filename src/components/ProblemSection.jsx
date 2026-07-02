@@ -36,22 +36,37 @@ const timeline = [
   {
     label: "Morning Discharges (8 AM - 12 PM)",
     value: "6 hrs",
+    bgColor: "bg-teal-500/10",
+    borderColor: "border-teal-400/30",
+    textColor: "text-red-300",
   },
   {
     label: "Afternoon Discharges",
     value: "4 hrs",
+    bgColor: "bg-purple-500/10",
+    borderColor: "border-purple-400/30",
+    textColor: "text-red-300",
   },
   {
     label: "Emergency Late Discharges",
     value: "3 hrs",
+    bgColor: "bg-green-500/10",
+    borderColor: "border-green-400/30",
+    textColor: "text-red-300",
   },
   {
     label: "Incomplete Next Morning",
     value: "8 Pending",
+    bgColor: "bg-orange-500/10",
+    borderColor: "border-orange-400/30",
+    textColor: "text-red-300",
   },
   {
     label: "TPA Resubmissions & Penalties",
     value: "₹3.8L/mo",
+    bgColor: "bg-blue-500/10",
+    borderColor: "border-blue-400/30",
+    textColor: "text-red-300",
   },
 ];
 
@@ -123,13 +138,13 @@ const ProblemSection = () => {
               {timeline.map((item) => (
                 <div
                   key={item.label}
-                  className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-5 py-4"
+                  className={`flex items-center justify-between rounded-xl border px-5 py-4 ${item.borderColor} ${item.bgColor}`}
                 >
                   <span className="text-sm text-white/80">
                     {item.label}
                   </span>
 
-                  <span className="rounded-full bg-[#C9912A]/20 px-3 py-1 text-xs font-semibold text-[#C9912A]">
+                  <span className="rounded-full px-3 py-1 text-xs font-semibold bg-red-300 text-black">
                     {item.value}
                   </span>
                 </div>
