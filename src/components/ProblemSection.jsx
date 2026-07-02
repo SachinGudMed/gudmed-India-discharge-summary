@@ -73,7 +73,7 @@ const timeline = [
 const ProblemSection = () => {
   return (
     <section className="bg-slate-50 py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
         <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
@@ -94,10 +94,10 @@ const ProblemSection = () => {
 
         {/* Grid */}
 
-        <div className="mt-16 grid gap-12 lg:grid-cols-2">
+        <div className="mt-16 grid gap-8 md:gap-12 lg:grid-cols-2">
           {/* Left */}
 
-          <div className="space-y-5">
+          <div className="space-y-4 md:space-y-5">
             {challenges.map((item) => {
               const Icon = item.icon;
 

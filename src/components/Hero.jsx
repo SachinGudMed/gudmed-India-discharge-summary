@@ -39,8 +39,8 @@ const Hero = () => {
     <section className="relative overflow-hidden bg-[#2E4168]">
       <Navbar />
 
-      <div className="mx-auto max-w-7xl px-6 pb-20 pt-36 lg:px-8">
-        <div className="grid grid-cols-1 gap-12 items-start lg:grid-cols-2">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 pt-32 sm:pt-36 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 sm:gap-12 items-start lg:grid-cols-2">
           {/* Left */}
           <div>
             {/* Badge */}
@@ -88,13 +88,13 @@ const Hero = () => {
             </div>
 
             {/* Buttons */}
-            <div className="mt-10 flex flex-wrap gap-4">
-              <button className="flex items-center gap-2 rounded-lg bg-[#C9912A] px-7 py-4 font-semibold text-[#2E4168] transition hover:bg-[#d9a746]">
+            <div className="mt-10 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
+              <button className="flex items-center justify-center sm:justify-start gap-2 rounded-lg bg-[#C9912A] px-6 sm:px-7 py-3 sm:py-4 font-semibold text-[#2E4168] transition hover:bg-[#d9a746]">
                 <Video size={18} />
                 Book a Live Demo
               </button>
 
-              <button className="flex items-center gap-2 rounded-lg border border-white/20 px-7 py-4 font-medium text-white transition hover:bg-white/10">
+              <button className="flex items-center justify-center sm:justify-start gap-2 rounded-lg border border-white/20 px-6 sm:px-7 py-3 sm:py-4 font-medium text-white transition hover:bg-white/10">
                 See How It Works
                 <ArrowRight size={18} />
               </button>

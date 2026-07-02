@@ -60,7 +60,7 @@ const ROISection = () => {
       id="roi"
       className="bg-slate-50 py-24"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
         <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
@@ -81,14 +81,14 @@ const ROISection = () => {
 
         {/* Cards */}
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
+        <div className="mt-16 grid gap-6 md:gap-8 md:grid-cols-2">
           {roiData.map((item) => {
             const Icon = item.icon;
 
             return (
               <div
                 key={item.title}
-                className="flex gap-6 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+                className="flex flex-col sm:flex-row gap-4 sm:gap-6 rounded-3xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
               >
                 {/* Icon */}
 

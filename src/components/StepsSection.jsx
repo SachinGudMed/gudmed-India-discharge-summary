@@ -34,7 +34,7 @@ const StepsSection = () => {
       id="how"
       className="bg-white py-24"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
           The Solution
         </span>

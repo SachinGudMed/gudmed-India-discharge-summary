@@ -58,7 +58,7 @@ const ComplianceSection = () => {
       id="compliance"
       className="bg-[#2E4168] py-24"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
         <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#C9912A]">

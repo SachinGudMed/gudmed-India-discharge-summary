@@ -7,9 +7,9 @@ const CTASection = () => {
       <div className="absolute -left-20 top-0 h-72 w-72 rounded-full bg-[#C9912A]/10 blur-3xl" />
       <div className="absolute -right-20 bottom-0 h-80 w-80 rounded-full bg-teal-500/10 blur-3xl" />
 
-      <div className="relative mx-auto max-w-6xl px-6">
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 backdrop-blur lg:p-16">
-          <div className="grid items-center gap-12 lg:grid-cols-2">
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-10 backdrop-blur lg:p-16">
+          <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2">
             {/* Left */}
 
             <div>
@@ -58,7 +58,7 @@ const CTASection = () => {
 
             {/* Right */}
 
-            <div className="rounded-2xl bg-white p-8 shadow-xl">
+            <div className="rounded-2xl bg-white p-6 sm:p-8 shadow-xl">
               <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-2xl font-bold text-[#2E4168]">
                 Request a Demo
               </h3>

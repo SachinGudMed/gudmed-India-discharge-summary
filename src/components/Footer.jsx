@@ -4,7 +4,7 @@ import logo from "../assets/FullLogo_Transparent.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-300 text-slate-800">
-      <div className="mx-auto max-w-7xl px-6 py-16">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
         <div className="grid gap-12 lg:grid-cols-4">
           {/* Brand */}
 

@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile */}
-        <button className="text-white lg:hidden">
+        <button className="text-slate-700 lg:hidden">
           <Menu size={28} />
         </button>
       </div>
