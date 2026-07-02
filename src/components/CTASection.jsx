@@ -17,7 +17,7 @@ const CTASection = () => {
                 Ready To Get Started?
               </span>
 
-              <h2 className="mt-5 text-4xl font-black leading-tight text-white md:text-5xl">
+              <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-5 text-4xl font-black leading-tight text-white md:text-5xl">
                 Transform Your Hospital's
                 <br />
                 Discharge Documentation
@@ -59,7 +59,7 @@ const CTASection = () => {
             {/* Right */}
 
             <div className="rounded-2xl bg-white p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-[#2E4168]">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-2xl font-bold text-[#2E4168]">
                 Request a Demo
               </h3>
 

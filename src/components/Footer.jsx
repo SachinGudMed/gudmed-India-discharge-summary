@@ -30,7 +30,7 @@ const Footer = () => {
           {/* Product */}
 
           <div>
-            <h4 className="mb-5 font-semibold text-slate-800">
+            <h4 style={{ fontFamily: 'Poppins, sans-serif' }} className="mb-5 font-semibold text-slate-800">
               Product
             </h4>
 
@@ -56,7 +56,7 @@ const Footer = () => {
           {/* Company */}
 
           <div>
-            <h4 className="mb-5 font-semibold text-slate-800">
+            <h4 style={{ fontFamily: 'Poppins, sans-serif' }} className="mb-5 font-semibold text-slate-800">
               Company
             </h4>
 
@@ -71,7 +71,7 @@ const Footer = () => {
           {/* Social */}
 
           <div>
-            <h4 className="mb-5 font-semibold text-slate-800">
+            <h4 style={{ fontFamily: 'Poppins, sans-serif' }} className="mb-5 font-semibold text-slate-800">
               Connect
             </h4>
             <ul className="space-y-3 text-slate-600">

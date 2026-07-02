@@ -65,7 +65,7 @@ const ComplianceSection = () => {
           Regulatory Standards
         </span>
 
-        <h2 className="mt-4 text-4xl font-black leading-tight text-white md:text-5xl">
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-white md:text-5xl">
           Built for India
           <br />
           Regulatory Compliance
@@ -96,7 +96,7 @@ const ComplianceSection = () => {
 
                 {/* Title */}
 
-                <h3 className="text-xl font-semibold text-white">
+                <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-xl font-semibold text-white">
                   {item.title}
                 </h3>
 

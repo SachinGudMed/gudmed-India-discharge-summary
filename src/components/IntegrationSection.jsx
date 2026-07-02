@@ -68,7 +68,7 @@ const IntegrationSection = () => {
             Plug & Play Integration
           </span>
 
-          <h2 className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+          <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
             GudMed Works Inside
             <br />
             Your Existing HIS
@@ -94,7 +94,7 @@ const IntegrationSection = () => {
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-[#2E4168]">
+                  <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-bold text-[#2E4168]">
                     {item.title}
                   </h3>
 
@@ -123,7 +123,7 @@ const IntegrationSection = () => {
               </div>
 
               <div>
-                <h3 className="font-bold text-[#2E4168]">
+                <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-bold text-[#2E4168]">
                   Existing HIS
                 </h3>
               </div>
@@ -143,7 +143,7 @@ const IntegrationSection = () => {
               </div>
 
               <div>
-                <h3 className="font-bold text-[#2E4168]">
+                <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-bold text-[#2E4168]">
                   GudMed AI Engine
                 </h3>
 
@@ -176,7 +176,7 @@ const IntegrationSection = () => {
                     />
                   </div>
 
-                  <h4 className="font-semibold text-[#2E4168]">
+                  <h4 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-semibold text-[#2E4168]">
                     {item.label}
                   </h4>
 

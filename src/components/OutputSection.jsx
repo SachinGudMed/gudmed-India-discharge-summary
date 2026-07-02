@@ -60,7 +60,7 @@ const OutputSection = () => {
                 Primary Diagnosis
               </p>
 
-              <h3 className="mt-2 font-semibold text-slate-800">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-2 font-semibold text-slate-800">
                 Acute ST-Elevation Myocardial Infarction (STEMI)
               </h3>
 
@@ -135,7 +135,7 @@ const OutputSection = () => {
             AI Generated Output
           </span>
 
-          <h2 className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+          <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
             Every Field.
             <br />
             Every Standard.
@@ -157,7 +157,7 @@ const OutputSection = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-bold text-[#2E4168]">
+                    <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-lg font-bold text-[#2E4168]">
                       {feature.title}
                     </h3>
 

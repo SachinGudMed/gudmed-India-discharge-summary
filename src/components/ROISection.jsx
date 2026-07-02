@@ -67,7 +67,7 @@ const ROISection = () => {
           Return On Investment
         </span>
 
-        <h2 className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
           The Numbers That Matter
           <br />
           To Hospital Leadership
@@ -105,12 +105,13 @@ const ROISection = () => {
 
                 <div className="flex-1">
                   <h3
+                    style={{ fontFamily: 'Poppins, sans-serif' }}
                     className={`text-4xl font-black ${item.color}`}
                   >
                     {item.value}
                   </h3>
 
-                  <h4 className="mt-3 text-lg font-bold text-[#2E4168]">
+                  <h4 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-3 text-lg font-bold text-[#2E4168]">
                     {item.title}
                   </h4>
 

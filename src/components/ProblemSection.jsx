@@ -65,7 +65,7 @@ const ProblemSection = () => {
           The Challenge
         </span>
 
-        <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
           Indian Hospitals Lose Hours Daily
           <br />
           to Manual Discharge Documentation
@@ -99,7 +99,7 @@ const ProblemSection = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-bold text-[#2E4168]">
+                    <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-lg font-bold text-[#2E4168]">
                       {item.title}
                     </h3>
 
@@ -139,7 +139,7 @@ const ProblemSection = () => {
             {/* Lost Time */}
 
             <div className="mt-8 rounded-xl border border-red-400/30 bg-red-500/10 p-5 text-center">
-              <h3 className="text-4xl font-black text-red-400">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-4xl font-black text-red-400">
                 13 hrs
               </h3>
 
@@ -151,7 +151,7 @@ const ProblemSection = () => {
             {/* GudMed */}
 
             <div className="mt-5 rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-5 text-center">
-              <h3 className="text-3xl font-black text-emerald-300">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-emerald-300">
                 With GudMed: 52 min
               </h3>
 

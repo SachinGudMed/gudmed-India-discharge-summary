@@ -39,7 +39,7 @@ const StepsSection = () => {
           The Solution
         </span>
 
-        <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
           Three Steps to a Perfect
           <br />
           Discharge Summary
@@ -71,7 +71,7 @@ const StepsSection = () => {
                   <Icon size={28} />
                 </div>
 
-                <h3 className="mt-6 text-xl font-bold text-[#2E4168]">
+                <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-6 text-xl font-bold text-[#2E4168]">
                   {step.title}
                 </h3>
 
