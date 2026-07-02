@@ -3,12 +3,13 @@ import {
   TrendingDown,
   Clock3,
   ShieldCheck,
+  TrendingUp,
 } from "lucide-react";
 
 const roiData = [
   {
     icon: Banknote,
-    value: "₹15L+",
+    value: "₹10cr+",
     title: "Annual Consultant Time Recovered",
     description:
       "Recover thousands of clinical hours annually by reducing discharge documentation from nearly an hour to just a few minutes.",
@@ -24,6 +25,15 @@ const roiData = [
     color: "text-blue-600",
     bg: "bg-blue-100",
   },
+  {
+  icon: TrendingUp,
+  value: "98%",
+  title: "Clinical Documentation Accuracy",
+  description:
+    "AI-generated nursing notes and discharge summaries achieve up to 98% documentation accuracy, reducing manual errors and improving record consistency.",
+  color: "text-blue-600",
+  bg: "bg-blue-100",
+},
   {
     icon: Clock3,
     value: "4 min",

@@ -16,12 +16,12 @@ const complianceItems = [
     badge: "NABH Compliance",
   },
   {
-    icon: ShieldCheck,
-    title: "MCI/NMC Medical Council Compliance",
-    description:
-      "Structured discharge summaries that satisfy Medical Council of India and NMC (National Medical Commission) documentation requirements.",
-    badge: "AIIMS Compliance",
-  },
+  icon: ShieldCheck,
+  title: "AIIMS Clinical Documentation Standards",
+  description:
+    "AI-generated discharge summaries aligned with AIIMS documentation practices, ensuring structured, complete, and standardized clinical records for high-quality patient care.",
+  badge: "AIIMS Compliant",
+},
   {
     icon: BadgeCheck,
     title: "JCI Accreditation Support",
