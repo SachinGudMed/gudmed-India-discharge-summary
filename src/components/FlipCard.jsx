@@ -8,7 +8,7 @@ const FlipCard = ({ frontImage, backImage = null }) => {
   };
 
   return (
-    <div className="w-full max-w-md">
+    <div className="w-full max-w-md mt-10">
       <div
         className="relative h-96 cursor-pointer rounded-2xl overflow-hidden shadow-2xl transition-transform hover:scale-105"
         onClick={toggleFlip}
