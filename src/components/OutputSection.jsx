@@ -48,7 +48,7 @@ const OutputSection = () => {
             </h4>
 
             <span className="rounded-full bg-[#C9912A]/20 px-3 py-1 text-xs font-semibold text-[#C9912A]">
-              DHA Compliant
+              ABDM Compliant
             </span>
           </div>
 

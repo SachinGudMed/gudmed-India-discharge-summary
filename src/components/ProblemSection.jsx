@@ -28,7 +28,7 @@ const challenges = [
     icon: ShieldAlert,
     title: "Compliance & Audit Risk",
     description:
-      "Inconsistent documentation increases DHA, HAAD and JCI audit risks.",
+      "Inconsistent documentation increases ABDM, NABH audit risks.",
   },
 ];
 
