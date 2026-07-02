@@ -1,0 +1,169 @@
+import {
+  UserRound,
+  FileWarning,
+  Globe,
+  ShieldAlert,
+} from "lucide-react";
+
+const challenges = [
+  {
+    icon: UserRound,
+    title: "Consultant Time Wasted on Paperwork",
+    description:
+      "Senior consultants spend 45–90 minutes per discharge on documentation instead of patient care.",
+  },
+  {
+    icon: FileWarning,
+    title: "Insurance Pre-Auth Delays",
+    description:
+      "Incomplete discharge summaries delay TPA approvals and increase claim rejections.",
+  },
+  {
+    icon: Globe,
+    title: "Multi-language Patient Population",
+    description:
+      "Patients often require discharge instructions in multiple languages for better understanding.",
+  },
+  {
+    icon: ShieldAlert,
+    title: "Compliance & Audit Risk",
+    description:
+      "Inconsistent documentation increases DHA, HAAD and JCI audit risks.",
+  },
+];
+
+const timeline = [
+  {
+    label: "Morning Discharges (8 AM - 12 PM)",
+    value: "6 hrs",
+  },
+  {
+    label: "Afternoon Discharges",
+    value: "4 hrs",
+  },
+  {
+    label: "Emergency Late Discharges",
+    value: "3 hrs",
+  },
+  {
+    label: "Incomplete Next Morning",
+    value: "8 Pending",
+  },
+  {
+    label: "TPA Resubmissions & Penalties",
+    value: "₹3.8L/mo",
+  },
+];
+
+const ProblemSection = () => {
+  return (
+    <section className="bg-slate-50 py-24">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        {/* Heading */}
+
+        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+          The Challenge
+        </span>
+
+        <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+          Indian Hospitals Lose Hours Daily
+          <br />
+          to Manual Discharge Documentation
+        </h2>
+
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-500">
+          Documentation delays affect clinician productivity,
+          insurance processing, patient experience and regulatory
+          compliance. Critical for NABH certification and TPA claims.
+        </p>
+
+        {/* Grid */}
+
+        <div className="mt-16 grid gap-12 lg:grid-cols-2">
+          {/* Left */}
+
+          <div className="space-y-5">
+            {challenges.map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <div
+                  key={item.title}
+                  className="flex gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md"
+                >
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-red-50">
+                    <Icon
+                      className="text-red-500"
+                      size={26}
+                    />
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold text-[#2E4168]">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-7 text-slate-500">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Right */}
+
+          <div className="rounded-3xl bg-[#2E4168] p-8 text-white shadow-xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C9912A]">
+              Typical Day • 100 Bed Hospital
+            </p>
+
+            <div className="mt-8 space-y-4">
+              {timeline.map((item) => (
+                <div
+                  key={item.label}
+                  className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-5 py-4"
+                >
+                  <span className="text-sm text-white/80">
+                    {item.label}
+                  </span>
+
+                  <span className="rounded-full bg-[#C9912A]/20 px-3 py-1 text-xs font-semibold text-[#C9912A]">
+                    {item.value}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {/* Lost Time */}
+
+            <div className="mt-8 rounded-xl border border-red-400/30 bg-red-500/10 p-5 text-center">
+              <h3 className="text-4xl font-black text-red-400">
+                13 hrs
+              </h3>
+
+              <p className="mt-2 text-sm text-white/60">
+                Clinical time lost daily
+              </p>
+            </div>
+
+            {/* GudMed */}
+
+            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-5 text-center">
+              <h3 className="text-3xl font-black text-emerald-300">
+                With GudMed: 52 min
+              </h3>
+
+              <p className="mt-2 text-sm text-white/60">
+                All discharge summaries completed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProblemSection;
