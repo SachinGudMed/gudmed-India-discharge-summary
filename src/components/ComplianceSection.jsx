@@ -22,13 +22,13 @@ const complianceItems = [
     "AI-generated discharge summaries aligned with AIIMS documentation practices, ensuring structured, complete, and standardized clinical records for high-quality patient care.",
   badge: "AIIMS Compliant",
 },
-  {
-    icon: BadgeCheck,
-    title: "JCI Accreditation Support",
-    description:
-      "Complete, timestamped and digitally signed documentation supporting JCI accreditation audits.",
-    badge: "JCI Ready",
-  },
+  // {
+  //   icon: BadgeCheck,
+  //   title: "JCI Accreditation Support",
+  //   description:
+  //     "Complete, timestamped and digitally signed documentation supporting JCI accreditation audits.",
+  //   badge: "JCI Ready",
+  // }, 
   {
     icon: CreditCard,
     title: "Insurance & TPA Integration",
