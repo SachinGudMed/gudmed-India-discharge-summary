@@ -20,15 +20,15 @@ const challenges = [
   },
   {
     icon: Globe,
-    title: "Multi-language Patient Population",
+    title: "Multi-Speciality Discharges",
     description:
-      "Patients often require discharge instructions in multiple languages for better understanding.",
+      "Hospitals requires muti-speciality specific discharges which GudMed provides automatically ex:- NEUROLOGY discharges, CARDIOLOGY discharges, ONCOLOGY discharges, PAEDIATRIC discharges and rest other departments.",
   },
   {
     icon: ShieldAlert,
-    title: "Compliance & Audit Risk",
+    title: "TPA & CGHS Rejections",
     description:
-      "Inconsistent documentation increases ABDM, NABH audit risks.",
+      "Inconsistent documentation increases document rejections and payment delays for patient and hospitals this increases burden on recovery, GudMed provides Approved documents along with compliance for NABH audit risks.",
   },
 ];
 
@@ -166,8 +166,8 @@ const ProblemSection = () => {
             {/* GudMed */}
 
             <div className="mt-5 rounded-xl border border-emerald-400/30 bg-gray-400 p-5 text-center">
-              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-emerald-300">
-                With <span style={{ color: '#2E4168' }}>GudMed</span>: 52 min
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-gray-800">
+                With <span style={{ color: '#2E4168', }}>GudMed</span>: 52 min
               </h3>
 
               <p className="mt-2 text-sm text-white/60">

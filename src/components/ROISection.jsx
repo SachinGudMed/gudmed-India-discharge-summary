@@ -18,7 +18,7 @@ const roiData = [
   },
   {
     icon: TrendingDown,
-    value: "25%",
+    value: "25%+",
     title: "Reduction in TPA Rejections",
     description:
       "Structured ICD-coded summaries reduce insurance claim rejections and improve reimbursement timelines.",
@@ -27,7 +27,7 @@ const roiData = [
   },
   {
   icon: TrendingUp,
-  value: "98%",
+  value: "98%+",
   title: "Clinical Documentation Accuracy",
   description:
     "AI-generated nursing notes and discharge summaries achieve up to 98% documentation accuracy, reducing manual errors and improving record consistency.",

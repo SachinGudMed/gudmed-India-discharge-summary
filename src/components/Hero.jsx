@@ -29,7 +29,7 @@ const stats = [
     label: "Manual Typing Required",
   },
   {
-    value: "95%+",
+    value: "98%+",
     label: "AI Accuracy",
   },
 ];
@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#C9912A]/30 bg-[#C9912A]/10 px-5 py-2">
               <span className="h-2 w-2 rounded-full bg-[#C9912A]" />
               <span className="text-sm font-medium text-[#C9912A]">
-                Trusted by 200+ Indian Hospitals
+                Trusted by 50+ Indian Hospitals
               </span>
             </div>
 
@@ -57,16 +57,12 @@ const Hero = () => {
 
             <h1 style={{ fontFamily: 'Poppins, sans-serif' }} className="max-w-4xl text-5xl font-black leading-tight text-white md:text-7xl">
               Discharge Summaries.
-              <br />
-              In <span className="text-[#C9912A]">Minutes</span>,
-              <br />
-              Not Hours.
             </h1>
 
             <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
               GudMed generates structured, NABH & ABDM compliant discharge
               summaries automatically — eliminating documentation burden
-              for clinical teams across Indian hospitals.
+              for clinical teams specially for doctors and nurses across Indian hospitals.
             </p>
 
             {/* Pills */}

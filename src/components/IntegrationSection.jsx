@@ -12,7 +12,7 @@ const integrationFeatures = [
   {
     title: "Works with Existing HIS",
     description:
-      "Connect seamlessly with Cerner, Epic, Meditech, or your existing Hospital Information System.",
+      "Connect seamlessly HIS,MIS,LIS,RIS or your existing Hospital Information System.",
   },
   {
     title: "HL7 & FHIR Ready",

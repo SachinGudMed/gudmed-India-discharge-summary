@@ -8,9 +8,9 @@ const steps = [
   {
     id: "1",
     icon: Mic,
-    title: "Doctor Dictates or Approves Notes",
+    title: "Uploading medical and Hospital Documents",
     description:
-      "Voice input or brief clinical notes during ward rounds. GudMed captures and structures everything automatically.",
+      "Uploading your medical documents including clinical documents, medical history, prescriptions, reports, scans, nursing documents, nurition documents, medication invoices.",
   },
   {
     id: "2",
@@ -40,14 +40,13 @@ const StepsSection = () => {
         </span>
 
         <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
-          Three Steps to a Perfect
-          <br />
-          Discharge Summary
+          Three Steps
+          Discharge!
         </h2>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-500">
           GudMed reads the clinical record, structures the summary,
-          and delivers it without manual documentation.
+          and delivers automatically.
         </p>
 
         <div className="mt-16 grid gap-8 lg:grid-cols-3">
