@@ -8,7 +8,7 @@ const FlipCard = ({ frontImage, backImage = null }) => {
   };
 
   return (
-    <div className="w-full max-w-3xl px-4 sm:px-0">
+    <div className="w-full max-w-3xl px-4 sm:px-0 mt-7">
       <div
         className="relative cursor-pointer rounded-2xl overflow-hidden shadow-2xl transition-transform hover:scale-105"
         onClick={toggleFlip}
@@ -64,9 +64,6 @@ const FlipCard = ({ frontImage, backImage = null }) => {
           )}
         </div>
       </div>
-      <p className="text-center text-white/60 text-sm mt-4">
-        Interactive 3D Flip Card
-      </p>
     </div>
   );
 };

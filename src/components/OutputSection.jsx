@@ -42,8 +42,8 @@ const OutputSection = () => {
 
         <div className="flex justify-center">
           <FlipCard
-            frontImage="/ipdimage2.jpg"
-            backImage="/ipd 1 1_page-0001.jpg"
+            frontImage="/ipdimage1.jpg"
+            backImage="/ipd 1 1_page-0002.jpg"
           />
         </div>
 

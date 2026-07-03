@@ -7,6 +7,10 @@ const navLinks = [
     href: "#how",
   },
   {
+    name: "Scribble",
+    href: "#scribble",
+  },
+  {
     name: "Compliance",
     href: "#compliance",
   },

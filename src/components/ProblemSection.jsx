@@ -87,7 +87,7 @@ const ProblemSection = () => {
         </h2>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-500">
-          Documentation delays affect clinician productivity,
+          Documentation delays affect hospital revenue and clinician productivity,
           insurance processing, patient experience and regulatory
           compliance. Critical for NABH certification and TPA claims.
         </p>

@@ -8,6 +8,7 @@ import OutputSection from "./components/OutputSection";
 import ProblemSection from "./components/ProblemSection";
 import RequestDemoModal from "./components/RequestDemoModal";
 import ROISection from "./components/ROISection";
+import ScribbleSection from "./components/ScribbleSection";
 import StepsSection from "./components/StepsSection";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <ProblemSection />
       <StepsSection/>
       <OutputSection/>
+      <ScribbleSection/>
       <ComplianceSection />
       <ROISection />
       <IntegrationSection />
