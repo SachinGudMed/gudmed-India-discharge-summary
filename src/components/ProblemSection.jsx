@@ -72,53 +72,50 @@ const timeline = [
 
 const ProblemSection = () => {
   return (
-    <section className="bg-slate-50 py-24">
+    <section className="bg-slate-50 py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-
-        <span className="text-sm font-semibold uppercase text-[#2E4168]">
+        <span className="text-xs sm:text-sm font-semibold uppercase text-[#2E4168]">
           The Challenge
         </span>
 
-        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 max-w-3xl text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-3 sm:mt-4 max-w-4xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-[#2E4168]">
           Indian Hospitals Lose Hours Daily
-          <br />
+          <br className="hidden sm:block" />
           to Manual Discharge Documentation
         </h2>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-500">
+        <p className="mt-4 sm:mt-6 max-w-3xl text-sm sm:text-base lg:text-lg leading-6 sm:leading-7 lg:leading-8 text-slate-500">
           Documentation delays affect hospital revenue and clinician productivity,
           insurance processing, patient experience and regulatory
           compliance. Critical for NABH certification and TPA claims.
         </p>
 
         {/* Grid */}
-
-        <div className="mt-16 grid gap-8 md:gap-12 lg:grid-cols-2">
+        <div className="mt-10 sm:mt-14 md:mt-16 lg:mt-20 grid gap-4 sm:gap-6 md:gap-8 lg:gap-10 lg:grid-cols-2">
           {/* Left */}
-
-          <div className="space-y-4 md:space-y-5">
+          <div className="space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6">
             {challenges.map((item) => {
               const Icon = item.icon;
 
               return (
                 <div
                   key={item.title}
-                  className="flex gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md"
+                  className="flex gap-3 sm:gap-4 rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 md:p-6 shadow-sm transition hover:shadow-md active:scale-98"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-red-50">
+                  <div className="flex h-12 w-12 sm:h-13 sm:w-13 md:h-14 md:w-14 shrink-0 items-center justify-center rounded-xl bg-red-50">
                     <Icon
                       className="text-red-500"
-                      size={26}
+                      size={20}
                     />
                   </div>
 
-                  <div>
-                    <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-lg font-bold text-[#2E4168]">
+                  <div className="min-w-0 flex-1">
+                    <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-sm sm:text-base md:text-lg font-bold text-[#2E4168] leading-tight">
                       {item.title}
                     </h3>
 
-                    <p className="mt-2 text-sm leading-7 text-slate-500">
+                    <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm leading-5 sm:leading-6 text-slate-500">
                       {item.description}
                     </p>
                   </div>
@@ -128,23 +125,22 @@ const ProblemSection = () => {
           </div>
 
           {/* Right */}
-
-          <div className="rounded-3xl bg-[#2E4168] p-8 text-white shadow-xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
+          <div className="rounded-2xl sm:rounded-3xl bg-[#2E4168] p-5 sm:p-7 md:p-8 text-white shadow-lg sm:shadow-xl">
+            <p className="text-xs font-semibold uppercase tracking-wide sm:tracking-[0.15em] text-white px-1">
               Typical Day • 100 Bed Hospital
             </p>
 
-            <div className="mt-8 space-y-4">
+            <div className="mt-6 sm:mt-8 space-y-3 sm:space-y-4">
               {timeline.map((item) => (
                 <div
                   key={item.label}
-                  className={`flex items-center justify-between rounded-xl border px-5 py-4 ${item.borderColor} ${item.bgColor}`}
+                  className={`flex items-center justify-between rounded-xl border px-3 sm:px-4 md:px-5 py-3 sm:py-4 text-xs sm:text-sm ${item.borderColor} ${item.bgColor}`}
                 >
-                  <span className="text-sm text-white/80">
+                  <span className="text-white/80 min-w-0 flex-1">
                     {item.label}
                   </span>
 
-                  <span className="rounded-full px-3 py-1 text-xs font-semibold bg-red-300 text-black">
+                  <span className="rounded-full px-2 sm:px-3 py-1 text-xs font-semibold bg-red-300 text-black ml-2 shrink-0">
                     {item.value}
                   </span>
                 </div>
@@ -152,25 +148,23 @@ const ProblemSection = () => {
             </div>
 
             {/* Lost Time */}
-
-            <div className="mt-8 rounded-xl border border-red-400/30 bg-red-500/10 p-5 text-center">
-              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-4xl font-black text-red-400">
+            <div className="mt-6 sm:mt-8 rounded-xl border border-red-400/30 bg-red-500/10 p-4 sm:p-5 md:p-6 text-center">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-2xl sm:text-3xl md:text-4xl font-black text-red-400">
                 13 hrs
               </h3>
 
-              <p className="mt-2 text-sm text-white/60">
+              <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm text-white/60">
                 Clinical time lost daily
               </p>
             </div>
 
             {/* GudMed */}
-
-            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-white p-5 text-center">
-              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-gray-700">
-                With <span style={{ color: '#2E4168', }}>GudMed</span>{" "}: 52 min
+            <div className="mt-4 sm:mt-5 rounded-xl border border-emerald-400/30 bg-white p-4 sm:p-5 md:p-6 text-center">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-xl sm:text-2xl md:text-3xl font-black text-gray-700">
+                With <span style={{ color: '#2E4168' }}>GudMed</span> 52 min
               </h3>
 
-              <p className="mt-2 text-sm text-black">
+              <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm text-black">
                 All discharge summaries completed.
               </p>
             </div>

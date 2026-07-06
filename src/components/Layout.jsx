@@ -25,7 +25,7 @@ const Layout = () => {
     <>
       <RequestDemoModal isOpen={showModal} onClose={() => setShowModal(false)} />
       <Navbar onDemoClick={() => setShowModal(true)} />
-      <main className="pt-18">
+      <main className="pt-16 sm:pt-18">
         <Outlet />
       </main>
       <Footer />
