@@ -44,6 +44,7 @@ const Navbar = ({ onDemoClick }) => {
             <Link
               key={link.name}
               to={link.path}
+              onClick={() => window.scrollTo(0, 0)}
               className="text-sm font-medium text-black transition hover:underline"
             >
               {link.name}

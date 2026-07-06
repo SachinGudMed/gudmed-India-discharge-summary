@@ -105,8 +105,8 @@ const Hero = ({ onDemoClick }) => {
           {/* Right - Flip Card */}
           <div className="flex justify-center lg:justify-end lg:self-start">
             <FlipCard
-              frontImage="/ipd 1 1_page-0001.jpg"
-              backImage="/ipdimage2.jpg"
+              frontImage="/Written.jpg"
+              backImage="/Digital.jpg"
             />
           </div>
         </div>

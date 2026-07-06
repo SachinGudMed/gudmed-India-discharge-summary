@@ -54,7 +54,7 @@ const FlipCard = ({ frontImage, backImage = null }) => {
               <img
                 src={backImage}
                 alt="Discharge Summary Back"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-t from-black/60 to-transparent">
                 <span className="text-white font-semibold text-lg">Click to Flip</span>
