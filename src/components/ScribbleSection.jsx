@@ -1,3 +1,5 @@
+import scribble from "../assets/Scribble.png"
+
 const ScribbleSection = () => {
   return (
     <section id="scribble" className="bg-white py-24">
@@ -6,7 +8,7 @@ const ScribbleSection = () => {
           {/* Left - Image */}
           <div className="flex justify-center">
             <img
-              src="/Scribble.png"
+              src={scribble}
               alt="GudMed Prescription Digitization"
               className="w-full max-w-2xl h-auto rounded-2xl shadow-xl"
             />
@@ -14,7 +16,7 @@ const ScribbleSection = () => {
 
           {/* Right - Content */}
           <div>
-            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-black">
+            <span className="text-sm font-semibold uppercase text-black">
               Digital Prescription
             </span>
 

@@ -13,7 +13,7 @@ const CTASection = () => {
             {/* Left */}
 
             <div>
-              <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+              <span className="text-sm font-semibold uppercase text-[#2E4168]">
                 Ready To Get Started?
               </span>
 

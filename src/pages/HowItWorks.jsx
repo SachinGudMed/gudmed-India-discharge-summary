@@ -1,6 +1,5 @@
 import StepsSection from "../components/StepsSection";
 import OutputSection from "../components/OutputSection";
-import ScribbleSection from "../components/ScribbleSection";
 import CTASection from "../components/CTASection";
 
 const HowItWorks = () => {
@@ -8,7 +7,6 @@ const HowItWorks = () => {
     <>
       <StepsSection />
       <OutputSection />
-      <ScribbleSection />
       <CTASection />
     </>
   );

@@ -19,6 +19,10 @@ const navLinks = [
     name: "Integration",
     path: "/integration",
   },
+  {
+    name: "Scribble",
+    path: "/scribble",
+  },
 ];
 
 const Navbar = ({ onDemoClick }) => {

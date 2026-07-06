@@ -64,14 +64,14 @@ const IntegrationSection = () => {
         {/* Left */}
 
         <div>
-          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+          <span className="text-sm font-semibold uppercase text-[#2E4168]">
             Plug & Play Integration
           </span>
 
           <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
             GudMed Works Inside
             <br />
-            Your Existing HIS
+            your Existing HIS
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-black">
@@ -110,7 +110,7 @@ const IntegrationSection = () => {
         {/* Right */}
 
         <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-lg">
-          <p className="mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+          <p className="mb-8 text-sm font-semibold uppercase text-[#2E4168]">
             Data Flow
           </p>
 

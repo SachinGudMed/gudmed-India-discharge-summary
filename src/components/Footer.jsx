@@ -31,7 +31,7 @@ const NewFooter = () => {
             {/* For mobile devices */}
             <div className="block sm:hidden">
               <p className="text-base sm:text-xl whitespace-nowrap ml-2 mr-2  ">
-                &copy; 2025 <strong>Gud Medicare Solutions Private Limited</strong>
+                &copy; 2026 <strong>Gud Medicare Solutions Private Limited</strong>
               </p>
               <p className="text-lg sm:text-xl">All rights reserved &reg;</p>
               <div className="flex justify-center gap-2">
@@ -45,7 +45,7 @@ const NewFooter = () => {
             {/* For larger screens */}
             <div className="hidden sm:block">
               <p className="text-lg sm:text-xl lg:text-left xl:-ml-20  md:text-center">
-                &copy; 2025 <strong>Gud Medicare Solutions Private Limited</strong> <br />
+                &copy; 2026 <strong>Gud Medicare Solutions Private Limited</strong> <br />
                 All rights reserved &reg;
               </p>
               <div className="flex flex-wrap md:justify-center lg:justify-start gap-2 xl:-ml-20">

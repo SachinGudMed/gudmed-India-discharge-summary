@@ -7,16 +7,21 @@ import FlipCard from "./FlipCard";
 
 const compliance = [
   "NABH Compliant",
-  "ABDH Compliant",
+  "ABDM Compliant",
   "AIIMS Supported",
-  "Insurance / TPA Ready",
+  "Insurance & TPA Documentation",
   "ISO 27001 Certified",
 ];
 
 const stats = [
+  // {
+  //   value: "Hours",
+  //   label: "Saves 4hrs in your discharge.",
+  // },
   {
-    value: "45→4",
+    value: "45min → 4min",
     label: "Minutes Saved Per Discharge",
+    // label: "Get Your Discharge Ready Within Minutes",
   },
   {
     value: "100%",
@@ -36,7 +41,7 @@ const Hero = ({ onDemoClick }) => {
   return (
     <section className="relative overflow-hidden">
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 pt-16 sm:pt-20 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 pt-12 sm:pt-12 lg:px-8">
         <div className="grid grid-cols-1 gap-8 sm:gap-12 items-center lg:grid-cols-2">
           {/* Left */}
           <div>
@@ -48,12 +53,17 @@ const Hero = ({ onDemoClick }) => {
               </span>
             </div>
 
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+            <p className="mb-4 text-sm font-semibold uppercase text-[#2E4168]">
               AI Powered Clinical Documentation
             </p>
 
             <h1 style={{ fontFamily: 'Poppins, sans-serif' }} className="max-w-4xl text-5xl font-black leading-tight text-[#2E4168] md:text-7xl">
-              Discharge Summaries.
+              {/* Discharge Summaries. */}
+              {/* Get Your Discharge Ready Within Minutes */}
+              {/* AI-Powered Discharge Summaries for Modern Hospitals */}
+              {/* Complete Discharge Summaries in Just Minutes */}
+              {/* Spend More Time with Patients, Less Time on Documentation */}
+              Generate Accurate Discharge Summaries in Minutes
             </h1>
 
             <p className="mt-8 max-w-3xl text-lg leading-8 text-[#2E4168]">
@@ -93,7 +103,7 @@ const Hero = ({ onDemoClick }) => {
           </div>
 
           {/* Right - Flip Card */}
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:justify-end lg:self-start">
             <FlipCard
               frontImage="/ipd 1 1_page-0001.jpg"
               backImage="/ipdimage2.jpg"
@@ -102,7 +112,7 @@ const Hero = ({ onDemoClick }) => {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid grid-cols-2 gap-8 border-t border-[#2E4168] pt-10 lg:grid-cols-4">
+        <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8 border-t border-[#2E4168] pt-10 place-items-center text-center">
           {stats.map((stat) => (
             <div key={stat.label}>
               <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-4xl font-black text-[#2E4168]">

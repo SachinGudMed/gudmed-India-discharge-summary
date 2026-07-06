@@ -5,6 +5,7 @@ import HowItWorks from "./pages/HowItWorks";
 import Compliance from "./pages/Compliance";
 import ROI from "./pages/ROI";
 import Integration from "./pages/Integration";
+import ScribbleSection from "./components/ScribbleSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/compliance" element={<Compliance />} />
         <Route path="/roi" element={<ROI />} />
         <Route path="/integration" element={<Integration />} />
+        <Route path="/scribble" element={<ScribbleSection />} />
       </Route>
     </Routes>
   );

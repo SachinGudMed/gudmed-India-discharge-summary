@@ -63,14 +63,14 @@ const ROISection = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+        <span className="text-sm font-semibold uppercase text-[#2E4168]">
           Return On Investment
         </span>
 
         <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
           The Numbers that Matter
           <br />
-          To Hospital Leadership
+          to Hospital Leadership
         </h2>
 
         <p className="mt-6 max-w-3xl text-lg leading-8 text-black">

@@ -36,7 +36,7 @@ const features = [
 
 const OutputSection = () => {
   return (
-    <section className="bg-gradient-to-b from-sky-50 to-white py-24">
+    <section className="bg-gray-50 py-24">
       <div className="mx-auto grid max-w-7xl gap-8 md:gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         {/* Left - Flip Card */}
 
@@ -50,7 +50,7 @@ const OutputSection = () => {
         {/* Right */}
 
         <div className="flex flex-col justify-center">
-          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+          <span className="text-sm font-semibold uppercase text-[#2E4168]">
             AI Generated Output
           </span>
 

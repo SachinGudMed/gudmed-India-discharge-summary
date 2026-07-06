@@ -1,5 +1,5 @@
 import {
-  Mic,
+  File,
   Sparkles,
   ClipboardCheck,
 } from "lucide-react";
@@ -7,7 +7,7 @@ import {
 const steps = [
   {
     id: "1",
-    icon: Mic,
+    icon: File,
     title: "Uploading medical and Hospital Documents",
     description:
       "Uploading your medical documents including clinical documents, medical history, prescriptions, reports, scans, nursing documents, nurition documents, medication invoices.",
@@ -35,7 +35,7 @@ const StepsSection = () => {
       className="bg-white py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+        <span className="text-sm font-semibold uppercase text-[#2E4168]">
           The Solution
         </span>
 

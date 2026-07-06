@@ -41,7 +41,7 @@ const complianceItems = [
     title: "India Data Residency & Security",
     description:
       "Patient information remains secure with India data center hosting and ISO 27001 certified enterprise-grade security controls.",
-    badge: "ISO 27001-DPDP ACT",
+    badge: "ISO 27001",
   },
   {
     icon: Database,
@@ -56,12 +56,12 @@ const ComplianceSection = () => {
   return (
     <section
       id="compliance"
-      className="bg-white py-24"
+      className="bg-white py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
+        <span className="text-sm font-semibold uppercase text-[#2E4168]">
           Security and Compliance First
         </span>
 
@@ -69,7 +69,7 @@ const ComplianceSection = () => {
           Trusted by Hospitals & Built for Indian Healthcare.
         </h2>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-[#2E4168]">
+        <p className="mt-12 sm:mt-14 lg:mt-16 max-w-3xl text-lg leading-8 text-[#2E4168]">
          Built for Indian hospitals and designed in alignment with India's healthcare regulations, Gudmed provides structured clinical documentation that supports NABH accreditation, ABDM interoperability, DPDP compliance, insurance claims, and end-to-end encryption.
         </p>
 
