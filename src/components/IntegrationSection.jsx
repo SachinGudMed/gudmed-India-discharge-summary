@@ -64,7 +64,7 @@ const IntegrationSection = () => {
         {/* Left */}
 
         <div>
-          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
             Plug & Play Integration
           </span>
 
@@ -74,7 +74,7 @@ const IntegrationSection = () => {
             Your Existing HIS
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-slate-500">
+          <p className="mt-6 text-lg leading-8 text-black">
             No rip-and-replace required. GudMed becomes an AI layer
             over your existing hospital systems and automatically
             pushes structured data back into your workflow.
@@ -86,10 +86,10 @@ const IntegrationSection = () => {
                 key={item.title}
                 className="flex gap-4"
               >
-                <div className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-teal-100">
+                <div className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg">
                   <Check
                     size={18}
-                    className="text-teal-600"
+                    className="text-[#2E4168]"
                   />
                 </div>
 
@@ -110,7 +110,7 @@ const IntegrationSection = () => {
         {/* Right */}
 
         <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-lg">
-          <p className="mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+          <p className="mb-8 text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
             Data Flow
           </p>
 
@@ -130,16 +130,16 @@ const IntegrationSection = () => {
             </div>
           </div>
 
-          <div className="py-4 text-center text-3xl text-teal-600">
+          <div className="py-4 text-center text-3xl text-[#2E4168]">
             ↓
           </div>
 
           {/* AI */}
 
-          <div className="rounded-2xl border-2 border-teal-500 bg-white p-5">
+          <div className="rounded-2xl border-2 border-[#2E4168] bg-white p-5">
             <div className="flex items-center gap-4">
-              <div className="rounded-xl bg-teal-100 p-3">
-                <BrainCircuit className="text-teal-600" />
+              <div className="rounded-xl bg-slate-100 p-3">
+                <BrainCircuit className="text-[#2E4168]" />
               </div>
 
               <div>
@@ -154,7 +154,7 @@ const IntegrationSection = () => {
             </div>
           </div>
 
-          <div className="py-4 text-center text-3xl text-teal-600">
+          <div className="py-4 text-center text-3xl text-[#2E4168]">
             ↓
           </div>
 
@@ -167,12 +167,12 @@ const IntegrationSection = () => {
               return (
                 <div
                   key={item.label}
-                  className="rounded-2xl border border-amber-300 bg-white p-5 text-center"
+                  className="rounded-2xl border border-[#2E4168] bg-white p-5 text-center"
                 >
-                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100">
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100">
                     <Icon
                       size={22}
-                      className="text-amber-700"
+                      className="text-[#2E4168]"
                     />
                   </div>
 

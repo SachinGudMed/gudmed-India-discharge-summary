@@ -50,7 +50,7 @@ const OutputSection = () => {
         {/* Right */}
 
         <div className="flex flex-col justify-center">
-          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+          <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
             AI Generated Output
           </span>
 
@@ -71,7 +71,7 @@ const OutputSection = () => {
                   key={feature.title}
                   className="flex gap-5"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-sky-100 text-teal-600">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-sky-100 text-[#2E4168]">
                     <Icon size={26} />
                   </div>
 

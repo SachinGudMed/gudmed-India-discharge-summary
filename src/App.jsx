@@ -1,41 +1,22 @@
-import { useState, useEffect } from "react";
-import ComplianceSection from "./components/ComplianceSection";
-import CTASection from "./components/CTASection";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import IntegrationSection from "./components/IntegrationSection";
-import OutputSection from "./components/OutputSection";
-import ProblemSection from "./components/ProblemSection";
-import RequestDemoModal from "./components/RequestDemoModal";
-import ROISection from "./components/ROISection";
-import ScribbleSection from "./components/ScribbleSection";
-import StepsSection from "./components/StepsSection";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import HowItWorks from "./pages/HowItWorks";
+import Compliance from "./pages/Compliance";
+import ROI from "./pages/ROI";
+import Integration from "./pages/Integration";
 
 function App() {
-  const [showModal, setShowModal] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowModal(true);
-    }, 4000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <>
-      <RequestDemoModal isOpen={showModal} onClose={() => setShowModal(false)} />
-      <Hero />
-      <ProblemSection />
-      <StepsSection/>
-      <OutputSection/>
-      <ScribbleSection/>
-      <ComplianceSection />
-      <ROISection />
-      <IntegrationSection />
-      <CTASection />
-      <Footer />
-    </>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/compliance" element={<Compliance />} />
+        <Route path="/roi" element={<ROI />} />
+        <Route path="/integration" element={<Integration />} />
+      </Route>
+    </Routes>
   );
 }
 

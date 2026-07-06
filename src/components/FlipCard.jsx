@@ -37,7 +37,7 @@ const FlipCard = ({ frontImage, backImage = null }) => {
               className="w-full h-full object-contain"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-t from-black/60 to-transparent">
-              <span className="text-white font-semibold text-lg">Click to Flip</span>
+              <span className="text-white font-semibold text-lg">View Sample → Flip</span>
               <span className="text-white/70 text-sm mt-2">→</span>
             </div>
           </div>

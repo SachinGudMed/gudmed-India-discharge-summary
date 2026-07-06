@@ -20,6 +20,7 @@ const complianceItems = [
   title: "Government Approved Clinical Documentation Standards",
   description:
     "AI-generated discharge summaries aligned with Government Approved practices, ensuring structured, complete, and standardized clinical records for high-quality patient care.",
+    badge: "Govt. Guidelines Aligned"
 },
   // {
   //   icon: BadgeCheck,
@@ -55,21 +56,21 @@ const ComplianceSection = () => {
   return (
     <section
       id="compliance"
-      className="bg-[#2E4168] py-24"
+      className="bg-white py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#C9912A]">
+        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
           Security and Compliance First
         </span>
 
-        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-white md:text-5xl">
-          Trusted by Hospitals & Build for Indian Healthcare.
+        <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
+          Trusted by Hospitals & Built for Indian Healthcare.
         </h2>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-         Built for Indian Hospitals and designed for India's healthcare regulation Gudmed structured Clinical documentations that supports NABH Accreditation, ABDM interoperability, DPDP privacy, insurance claims, end-to-end encryption.
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-[#2E4168]">
+         Built for Indian hospitals and designed in alignment with India's healthcare regulations, Gudmed provides structured clinical documentation that supports NABH accreditation, ABDM interoperability, DPDP compliance, insurance claims, and end-to-end encryption.
         </p>
 
         {/* Cards */}
@@ -81,11 +82,11 @@ const ComplianceSection = () => {
             return (
               <div
                 key={item.title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-7 transition duration-300 hover:border-[#C9912A]/50 hover:bg-white/10"
+                className="rounded-2xl border border-[#2E4168] bg-[#2E4168] p-7 transition duration-300 cursor-pointer"
               >
                 {/* Icon */}
 
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#C9912A]/10 text-[#C9912A]">
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[white] text-[#2E4168]">
                   <Icon size={28} />
                 </div>
 
@@ -103,7 +104,7 @@ const ComplianceSection = () => {
 
                 {/* Badge */}
 
-                <span className="mt-6 inline-block rounded-full border border-[#C9912A]/30 bg-[#C9912A]/10 px-4 py-2 text-sm font-semibold text-[#C9912A]">
+                <span className="mt-6 inline-block rounded-full border border-[#2E4168] bg-white px-4 py-2 text-sm font-semibold text-[#2E4168]">
                   {item.badge}
                 </span>
               </div>

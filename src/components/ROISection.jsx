@@ -13,8 +13,8 @@ const roiData = [
     title: "Annual Consultant Time Recovered",
     description:
       "Recover thousands of clinical hours annually by reducing discharge documentation from nearly an hour to just a few minutes.",
-    color: "text-emerald-600",
-    bg: "bg-emerald-100",
+    color: "text-[#2E4168]",
+    bg: "bg-blue-100",
   },
   {
     icon: TrendingDown,
@@ -22,7 +22,7 @@ const roiData = [
     title: "Reduction in TPA Rejections",
     description:
       "Structured ICD-coded summaries reduce insurance claim rejections and improve reimbursement timelines.",
-    color: "text-blue-600",
+    color: "text-[#2E4168]",
     bg: "bg-blue-100",
   },
   {
@@ -31,7 +31,7 @@ const roiData = [
   title: "Clinical Documentation Accuracy",
   description:
     "AI-generated nursing notes and discharge summaries achieve up to 98% documentation accuracy, reducing manual errors and improving record consistency.",
-  color: "text-blue-600",
+  color: "text-[#2E4168]",
   bg: "bg-blue-100",
 },
   {
@@ -40,8 +40,8 @@ const roiData = [
     title: "Average Discharge Completion",
     description:
       "Doctors spend less time documenting and more time caring for patients with AI-assisted summaries.",
-    color: "text-amber-600",
-    bg: "bg-amber-100",
+    color: "text-[#2E4168]",
+    bg: "bg-blue-100",
   },
   {
     icon: ShieldCheck,
@@ -49,8 +49,8 @@ const roiData = [
     title: "Incomplete Discharge Files",
     description:
       "Mandatory fields are automatically validated before sign-off, ensuring complete documentation every time.",
-    color: "text-teal-600",
-    bg: "bg-teal-100",
+    color: "text-[#2E4168]",
+    bg: "bg-blue-100",
   },
 ];
 
@@ -63,17 +63,17 @@ const ROISection = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
           Return On Investment
         </span>
 
         <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
-          The Numbers That Matter
+          The Numbers that Matter
           <br />
           To Hospital Leadership
         </h2>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-500">
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-black">
           GudMed pays for itself by reducing documentation time,
           minimizing insurance delays and improving clinician
           productivity.

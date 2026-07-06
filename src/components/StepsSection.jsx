@@ -35,7 +35,7 @@ const StepsSection = () => {
       className="bg-white py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
           The Solution
         </span>
 
@@ -56,17 +56,17 @@ const StepsSection = () => {
             return (
               <div
                 key={step.id}
-                className="group rounded-2xl border border-slate-200 bg-slate-50 p-8 transition duration-300 hover:-translate-y-1 hover:border-teal-500 hover:shadow-xl"
+                className="group rounded-2xl border border-slate-200 bg-slate-50 p-8 transition duration-300 hover:-translate-y-1 hover:border-[#2E4168] hover:shadow-xl"
               >
                 {/* Number */}
 
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#2E4168] text-lg font-bold text-[#C9912A]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#2E4168] text-lg font-bold text-white">
                   {step.id}
                 </div>
 
                 {/* Icon */}
 
-                <div className="mt-6 flex h-14 w-14 items-center justify-center rounded-xl bg-teal-50 text-teal-600">
+                <div className="mt-6 flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-[#2E4168]">
                   <Icon size={28} />
                 </div>
 

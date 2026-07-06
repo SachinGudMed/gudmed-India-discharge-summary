@@ -14,14 +14,14 @@ const ScribbleSection = () => {
 
           {/* Right - Content */}
           <div>
-            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+            <span className="text-sm font-semibold uppercase tracking-[0.25em] text-black">
               Digital Prescription
             </span>
 
             <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="mt-4 text-4xl font-black leading-tight text-[#2E4168] md:text-5xl">
               Prescribe Smarter,
               <br />
-              Digitize <span className="text-teal-600">Instantly</span>
+              Digitize <span className="text-[#2E4168]">Instantly</span>
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
@@ -30,46 +30,43 @@ const ScribbleSection = () => {
 
             <div className="mt-10 space-y-4">
               <div className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100">
-                  <span className="text-emerald-600 font-bold">✓</span>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
+                  <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
                 <span className="text-slate-700">Handwritten prescription converted into digital PDF instantly with AI</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100">
-                  <span className="text-emerald-600 font-bold">✓</span>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
+                  <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
                 <span className="text-slate-700">AI Technology Enhances Accuracy</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100">
-                  <span className="text-emerald-600 font-bold">✓</span>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
+                  <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
                 <span className="text-slate-700">Smart Recognition of Medicines & Instructions</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100">
-                  <span className="text-emerald-600 font-bold">✓</span>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
+                  <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
                 <span className="text-slate-700">Secure & Cloud Stored</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100">
-                  <span className="text-emerald-600 font-bold">✓</span>
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
+                  <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
                 <span className="text-slate-700">Easy Sharing & Access</span>
               </div>
             </div>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <button className="rounded-lg bg-teal-600 px-8 py-4 font-semibold text-white transition hover:bg-teal-700">
-                Learn More
-              </button>
-              <button className="rounded-lg border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-slate-50">
+              <button className="rounded-lg border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-[#2E4168] hover:text-white">
                 Try Demo
               </button>
             </div>

@@ -3,8 +3,6 @@ import {
   Video,
   ArrowRight,
 } from "lucide-react";
-import Navbar from "./Navbar";
-import logo from "../assets/FullLogo_Transparent.png";
 import FlipCard from "./FlipCard";
 
 const compliance = [
@@ -34,32 +32,31 @@ const stats = [
   },
 ];
 
-const Hero = () => {
+const Hero = ({ onDemoClick }) => {
   return (
-    <section className="relative overflow-hidden bg-[#2E4168]">
-      <Navbar />
+    <section className="relative overflow-hidden">
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 pt-32 sm:pt-36 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:gap-12 items-start lg:grid-cols-2">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20 pt-16 sm:pt-20 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 sm:gap-12 items-center lg:grid-cols-2">
           {/* Left */}
           <div>
             {/* Badge */}
-            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#C9912A]/30 bg-[#C9912A]/10 px-5 py-2">
-              <span className="h-2 w-2 rounded-full bg-[#C9912A]" />
-              <span className="text-sm font-medium text-[#C9912A]">
-                Trusted by 50+ Indian Hospitals
+            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#C9912A]/30 bg-gray-100 px-5 py-2">
+              <span className="h-2 w-2 rounded-full bg-[#2E4168]" />
+              <span className="text-sm font-medium text-[#2E4168]">
+                Trusted by 50+ Hospitals Across India
               </span>
             </div>
 
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#C9912A]">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
               AI Powered Clinical Documentation
             </p>
 
-            <h1 style={{ fontFamily: 'Poppins, sans-serif' }} className="max-w-4xl text-5xl font-black leading-tight text-white md:text-7xl">
+            <h1 style={{ fontFamily: 'Poppins, sans-serif' }} className="max-w-4xl text-5xl font-black leading-tight text-[#2E4168] md:text-7xl">
               Discharge Summaries.
             </h1>
 
-            <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-[#2E4168]">
               GudMed generates structured, NABH & ABDM compliant discharge
               summaries automatically — eliminating documentation burden
               for clinical teams specially for doctors and nurses across Indian hospitals.
@@ -70,13 +67,13 @@ const Hero = () => {
               {compliance.map((item) => (
                 <div
                   key={item}
-                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2"
+                  className="flex items-center gap-2 rounded-full border border-[#2E4168] bg-white/5 px-4 py-2 cursor-pointer"
                 >
                   <Check
                     size={15}
-                    className="text-[#C9912A]"
+                    className="text-[#2E4168]"
                   />
-                  <span className="text-sm text-white/90">
+                  <span className="text-sm text-[#2E4168]">
                     {item}
                   </span>
                 </div>
@@ -85,14 +82,12 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
-              <button className="flex items-center justify-center sm:justify-start gap-2 rounded-lg bg-[#C9912A] px-6 sm:px-7 py-3 sm:py-4 font-semibold text-[#2E4168] transition hover:bg-[#d9a746]">
+              <button
+                onClick={onDemoClick}
+                className="flex items-center justify-center sm:justify-start gap-2 rounded-lg bg-[#2E4168] px-6 sm:px-7 py-3 sm:py-4 font-semibold text-white transition cursor-pointer"
+              >
                 <Video size={18} />
                 Book a Live Demo
-              </button>
-
-              <button className="flex items-center justify-center sm:justify-start gap-2 rounded-lg border border-white/20 px-6 sm:px-7 py-3 sm:py-4 font-medium text-white transition hover:bg-white/10">
-                See How It Works
-                <ArrowRight size={18} />
               </button>
             </div>
           </div>
@@ -107,14 +102,14 @@ const Hero = () => {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid grid-cols-2 gap-8 border-t border-white/10 pt-10 lg:grid-cols-4">
+        <div className="mt-16 grid grid-cols-2 gap-8 border-t border-[#2E4168] pt-10 lg:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label}>
-              <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-4xl font-black text-[#C9912A]">
+              <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-4xl font-black text-[#2E4168]">
                 {stat.value}
               </h2>
 
-              <p className="mt-2 text-xs uppercase tracking-wide text-white/50">
+              <p className="mt-2 text-xs uppercase tracking-wide text-[#2E4168]">
                 {stat.label}
               </p>
             </div>

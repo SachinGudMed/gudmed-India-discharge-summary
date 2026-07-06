@@ -76,7 +76,7 @@ const ProblemSection = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
 
-        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-teal-600">
+        <span className="text-sm font-semibold uppercase tracking-[0.25em] text-[#2E4168]">
           The Challenge
         </span>
 
@@ -130,7 +130,7 @@ const ProblemSection = () => {
           {/* Right */}
 
           <div className="rounded-3xl bg-[#2E4168] p-8 text-white shadow-xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C9912A]">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
               Typical Day • 100 Bed Hospital
             </p>
 
@@ -165,12 +165,12 @@ const ProblemSection = () => {
 
             {/* GudMed */}
 
-            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-gray-400 p-5 text-center">
-              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-gray-800">
+            <div className="mt-5 rounded-xl border border-emerald-400/30 bg-blue-100 p-5 text-center">
+              <h3 style={{ fontFamily: 'Poppins, sans-serif' }} className="text-3xl font-black text-gray-600">
                 With <span style={{ color: '#2E4168', }}>GudMed</span>: 52 min
               </h3>
 
-              <p className="mt-2 text-sm text-white/60">
+              <p className="mt-2 text-sm text-black">
                 All discharge summaries completed.
               </p>
             </div>
