@@ -14,23 +14,23 @@ const features = [
     description:
       "Cardiology, Oncology, Orthopaedics, Neurology, ICU and more with specialty-aware templates.",
   },
-  {
-    icon: Globe,
-    title: "Hindi & English Output",
-    description:
-      "Generate bilingual discharge summaries for patients and clinicians automatically.",
-  },
+  // {
+  //   icon: Globe,
+  //   title: "Hindi & English Output",
+  //   description:
+  //     "Generate bilingual discharge summaries for patients and clinicians automatically.",
+  // },
   {
     icon: Pill,
-    title: "Medication Safety Checks",
+    title: "Final Documents Ready ",
     description:
-      "Verify medications, dosage, allergies and discharge prescriptions before finalizing.",
+      "Patient Summaries Vitals Report, Medication, Responses, Procedures any Ambulatory Services Recorded and Reported as per NABH Compliance and Editable formats",
   },
   {
     icon: Smartphone,
-    title: "Patient Delivery",
+    title: "Doctor Verification Ready",
     description:
-      "Instantly share discharge summaries through WhatsApp, SMS or your patient portal.",
+      "Instantly share discharge summaries through Email, WhatsApp for Approvals and e-signature.",
   },
 ];
 

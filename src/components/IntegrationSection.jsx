@@ -49,7 +49,7 @@ const outputs = [
   },
   {
     icon: ShieldCheck,
-    label: "NABIDH",
+    label: "ABDM",
     sub: "Health Exchange",
   },
 ];

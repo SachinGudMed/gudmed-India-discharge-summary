@@ -54,7 +54,7 @@ const NewFooter = () => {
                 className="flex items-center justify-center lg:justify-end gap-2 hover:text-gray-300 transition text-xs sm:text-sm md:text-base"
               >
                 <FaPhoneAlt className="rotate-90 shrink-0" size={16} />
-                <span className="truncate">+91-9999196828</span>
+                <span className="truncate">Contact Us: +91-9999196828</span>
               </a>
 
               <a
@@ -62,7 +62,7 @@ const NewFooter = () => {
                 className="flex items-center justify-center lg:justify-end gap-2 hover:text-gray-300 transition text-xs sm:text-sm md:text-base truncate"
               >
                 <FaEnvelope className="shrink-0" size={16} />
-                <span className="truncate">cs@gudmed.in</span>
+                <span className="truncate"> Email Us: cs@gudmed.in</span>
               </a>
             </div>
 

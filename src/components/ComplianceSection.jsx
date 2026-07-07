@@ -101,6 +101,12 @@ const ComplianceSection = () => {
                 <span className="mt-4 sm:mt-6 inline-block rounded-full border border-[#2E4168] bg-white px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-semibold text-[#2E4168] w-fit">
                   {item.badge}
                 </span>
+
+                {item.title === "India Data Residency & Security" && (
+    <span className="mt-4 sm:mt-6 inline-block rounded-full border border-[#2E4168] bg-white px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-semibold text-[#2E4168] w-fit">
+      DPDP Compliant
+    </span>
+  )}
               </div>
             );
           })}

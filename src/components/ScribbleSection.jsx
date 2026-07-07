@@ -27,7 +27,14 @@ const ScribbleSection = () => {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              GudMed converts handwritten prescriptions into structured digital records using clinical AI. The platform improves readability, reduces documentation errors, simplifies medicine tracking, and makes prescriptions easy to store, search, and share across hospital systems.
+              Scribble by GudMed enables doctors to continue writing prescriptions in their
+              natural handwriting while our AI system instantly digitizes them in the
+              background. Using a simple tab at the point of care,
+              handwritten prescriptions are captured, processed through clinical AI, and
+              converted into structured, hospital-ready digital records. The system
+              preserves your existing prescription style while intelligently extracting
+              medicines, dosage, and instructions, ensuring accuracy, consistency, and
+              seamless integration with your hospital workflow.
             </p>
 
             <div className="mt-10 space-y-4">
@@ -35,41 +42,41 @@ const ScribbleSection = () => {
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
                   <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
-                <span className="text-slate-700">Convert handwritten prescriptions into structured digital records</span>
+                <span className="text-slate-700">Use your IPAD or Tab to scribe in your Own clinical and nursing Format.</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
                   <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
-                <span className="text-slate-700">Improve prescription readability and reduce medication errors</span>
+                <span className="text-slate-700">Use your own Stationery, Forms, templates, and Document shapes to make notes and prescriptions.</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
                   <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
-                <span className="text-slate-700">Recognize medicines, dosage, and clinical instructions automatically</span>
+                <span className="text-slate-700">Recognize Medicines, Scans, Reports, vitals, Procedures, test variables and clinical instructions automatically.</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
                   <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
-                <span className="text-slate-700">Securely store prescriptions in the patient's digital record</span>
+                <span className="text-slate-700">Secure your Documents, Notes, prescriptions and Document types without changing anything.</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg text-[#2E4168]">
                   <span className="text-[#2E4168]font-bold">✓</span>
                 </div>
-                <span className="text-slate-700"> Share prescriptions instantly across departments and patients</span>
+                <span className="text-slate-700"> Share prescriptions instantly across departments and patients.</span>
               </div>
             </div>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <button className="rounded-lg border border-[#2E4168] px-8 py-4 font-semibold text-slate-700 transition hover:bg-[#2E4168] hover:text-white">
-               Schedule a Live Demo
+                Schedule a Live Demo
               </button>
             </div>
           </div>
