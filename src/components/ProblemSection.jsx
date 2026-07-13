@@ -103,9 +103,9 @@ const ProblemSection = () => {
                   key={item.title}
                   className="flex gap-3 sm:gap-4 rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 md:p-6 shadow-sm transition hover:shadow-md active:scale-98"
                 >
-                  <div className="flex h-12 w-12 sm:h-13 sm:w-13 md:h-14 md:w-14 shrink-0 items-center justify-center rounded-xl bg-red-50">
+                  <div className="flex h-12 w-12 sm:h-13 sm:w-13 md:h-14 md:w-14 shrink-0 items-center justify-center rounded-xl bg-[#2E4168]">
                     <Icon
-                      className="text-red-500"
+                      className="text-white"
                       size={20}
                     />
                   </div>

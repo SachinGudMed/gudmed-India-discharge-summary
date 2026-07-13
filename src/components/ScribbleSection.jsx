@@ -2,15 +2,15 @@ import scribble from "../assets/Scribble.png"
 
 const ScribbleSection = () => {
   return (
-    <section id="scribble" className="bg-white py-24">
+    <section id="scribble" className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:gap-16 items-start lg:grid-cols-2">
           {/* Left - Image */}
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-8 py-5">
             <img
               src={scribble}
               alt="GudMed Prescription Digitization"
-              className="w-full max-w-2xl h-auto rounded-2xl shadow-xl"
+              className="w-[700px] max-w-2xl h-auto rounded-2xl shadow-xl mr-6"
             />
           </div>
 

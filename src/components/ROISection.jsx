@@ -58,7 +58,7 @@ const ROISection = () => {
   return (
     <section
       id="roi"
-      className="bg-slate-50 py-12 sm:py-16 md:py-20 lg:py-24"
+      className="bg-slate-50 py-12 sm:py-16 md:py-10 lg:py-10"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}

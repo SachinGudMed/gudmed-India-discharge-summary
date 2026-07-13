@@ -37,8 +37,8 @@ const FlipCard = ({ frontImage, backImage = null }) => {
               alt="Discharge Summary"
               className="w-full h-full object-cover sm:object-contain"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-t from-black/60 to-transparent">
-              <span className="text-white font-semibold text-base sm:text-lg px-4 text-center">View Sample → Flip</span>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <button className="text-white bg-[#2E4168] cursor-pointer font-semibold text-base sm:text-lg px-4 text-center">Click me</button>
             </div>
           </div>
 
@@ -56,9 +56,8 @@ const FlipCard = ({ frontImage, backImage = null }) => {
                 alt="Discharge Summary Back"
                 className="w-full h-full object-cover sm:object-contain"
               />
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-t from-black/60 to-transparent">
-                <span className="text-white font-semibold text-base sm:text-lg px-4 text-center">Click to Flip</span>
-                <span className="text-white/70 text-sm mt-2">←</span>
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <button className="text-white bg-[#2E4168] cursor-pointer font-semibold text-base sm:text-lg px-4 text-center">Click Me</button>
               </div>
             </div>
           )}

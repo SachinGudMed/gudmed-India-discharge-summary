@@ -58,7 +58,7 @@ const IntegrationSection = () => {
   return (
     <section
       id="integration"
-      className="bg-white py-12 sm:py-16 md:py-20 lg:py-24"
+      className="bg-white py-12 sm:py-16 md:py-10 lg:py-10"
     >
       <div className="mx-auto grid max-w-7xl gap-8 sm:gap-10 md:gap-12 lg:gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         {/* Left */}

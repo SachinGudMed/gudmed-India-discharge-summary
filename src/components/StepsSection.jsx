@@ -32,7 +32,7 @@ const StepsSection = () => {
   return (
     <section
       id="how"
-      className="bg-white py-12 sm:py-16 md:py-20 lg:py-24"
+      className="bg-white py-12 sm:py-16 md:py-10 lg:py-10"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <span className="text-xs sm:text-sm font-semibold uppercase text-[#2E4168]">

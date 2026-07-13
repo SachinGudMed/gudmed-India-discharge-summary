@@ -41,8 +41,8 @@ const OutputSection = () => {
         {/* Left - Flip Card */}
         <div className="flex justify-center items-start order-2 lg:order-1">
           <FlipCard
-            frontImage="/ipdimage1.jpg"
-            backImage="/ipd 1 1_page-0002.jpg"
+            frontImage="/Written.jpg"
+              backImage="/Digital.jpg"
           />
         </div>
 
