@@ -40,7 +40,7 @@ const stats = [
 const Hero = ({ onDemoClick }) => {
   return (
     <section className="relative overflow-hidden">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-12 sm:pb-16 md:pb-20 lg:pb-24 pt-8 sm:pt-12 md:pt-16 lg:pt-20 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-12 sm:pb-16 md:pb-20 lg:pb-24 pt-8 sm:pt-12 md:pt-10 lg:pt-12 lg:px-8">
         <div className="grid grid-cols-1 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center lg:grid-cols-2">
           {/* Left */}
           <div className="w-full">

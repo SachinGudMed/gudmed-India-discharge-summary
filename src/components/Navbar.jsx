@@ -5,6 +5,10 @@ import logo from "../assets/Gudmed1-removebg-preview.png";
 
 const navLinks = [
   {
+    name: "Home",
+    path: "/",
+  },
+  {
     name: "How It Works",
     path: "/how-it-works",
   },
